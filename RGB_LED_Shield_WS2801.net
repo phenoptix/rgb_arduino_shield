@@ -1,0 +1,396 @@
+# EESchema Netlist Version 1.1 created  13/12/2012 15:53:13
+(
+ ( /50C9F2B8 $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /50C9F2B6 $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /50C8B87C $noname  SHIELD1 ARDUINO_SHIELD {Lib=ARDUINO_SHIELD}
+  (    0 ? )
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (   5V +5V )
+  (    6 ? )
+  (    7 ? )
+  (    8 N-000043 )
+  (    9 N-000017 )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (  3V3 ? )
+  (  AD0 ? )
+  (  AD1 ? )
+  (  AD2 ? )
+  (  AD3 ? )
+  (  AD4 ? )
+  (  AD5 ? )
+  ( AREF ? )
+  ( GND1 GND )
+  ( GND2 GND )
+  ( GND3 ? )
+  (  RST ? )
+  ( V_IN ? )
+ )
+ ( /50C890AD $noname  P3 POWER {Lib=CONN_2}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /50C8906E $noname  P4 DATA {Lib=CONN_4}
+  (    1 +5V )
+  (    2 GND )
+  (    3 N-000039 )
+  (    4 N-000040 )
+ )
+ ( /50C87BA6 $noname  Q6 NPN_-_BD135 {Lib=NPN}
+  (    1 GND )
+  (    2 N-000049 )
+  (    3 N-000002 )
+ )
+ ( /50C87BA5 $noname  R11 1k {Lib=R}
+  (    1 N-000049 )
+  (    2 N-000001 )
+ )
+ ( /50C87BA4 $noname  R12 100k {Lib=R}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /50C87BA2 $noname  Q5 BC556 {Lib=PNP}
+  (    1 N-000001 )
+  (    2 N-000009 )
+  (    3 +5V )
+ )
+ ( /50C87BA1 $noname  R9 1k {Lib=R}
+  (    1 N-000048 )
+  (    2 N-000009 )
+ )
+ ( /50C87BA0 $noname  R10 100k {Lib=R}
+  (    1 +5V )
+  (    2 N-000009 )
+ )
+ ( /50C87B9A $noname  Q4 NPN_-_BD135 {Lib=NPN}
+  (    1 GND )
+  (    2 N-000007 )
+  (    3 N-000031 )
+ )
+ ( /50C87B99 $noname  R7 1k {Lib=R}
+  (    1 N-000007 )
+  (    2 N-000008 )
+ )
+ ( /50C87B98 $noname  R8 100k {Lib=R}
+  (    1 N-000007 )
+  (    2 GND )
+ )
+ ( /50C87B96 $noname  Q3 BC556 {Lib=PNP}
+  (    1 N-000008 )
+  (    2 N-000037 )
+  (    3 +5V )
+ )
+ ( /50C87B95 $noname  R5 1k {Lib=R}
+  (    1 N-000047 )
+  (    2 N-000037 )
+ )
+ ( /50C87B94 $noname  R6 100k {Lib=R}
+  (    1 +5V )
+  (    2 N-000037 )
+ )
+ ( /50C87AC6 $noname  R4 100k {Lib=R}
+  (    1 +5V )
+  (    2 N-000036 )
+ )
+ ( /50C87ABC $noname  R3 1k {Lib=R}
+  (    1 N-000041 )
+  (    2 N-000036 )
+ )
+ ( /50C87A8D $noname  Q2 BC556 {Lib=PNP}
+  (    1 N-000034 )
+  (    2 N-000036 )
+  (    3 +5V )
+ )
+ ( /50C879EC $noname  U2 WS2801 {Lib=WS2801}
+  (    1 N-000043 )
+  (    2 N-000017 )
+  (    3 ? )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 GND )
+  (    8 N-000041 )
+  (    9 N-000047 )
+  (   10 N-000048 )
+  (   11 ? )
+  (   12 N-000040 )
+  (   13 N-000039 )
+  (   14 +5V )
+ )
+ ( /50BCDD36 $noname  D2 1N4001 {Lib=DIODE}
+  (    1 N-000051 )
+  (    2 +5V )
+ )
+ ( /50BCDCF2 $noname  K1 PWR_OPT {Lib=CONN_3}
+  (    1 +12V )
+  (    2 N-000033 )
+  (    3 +5V )
+ )
+ ( /50A4E063 $noname  P1 12V_Power {Lib=CONN_2}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /50A11505 $noname  D1 1N4001 {Lib=DIODE}
+  (    1 N-000045 )
+  (    2 +12V )
+ )
+ ( /50A11396 $noname  U1 78L05 {Lib=78L05}
+  (  GND GND )
+  (   VI +12V )
+  (   VO N-000051 )
+ )
+ ( /50A11378 $noname  P2 RGB {Lib=CONN_4}
+  (    1 N-000033 )
+  (    2 N-000032 )
+  (    3 N-000031 )
+  (    4 N-000002 )
+ )
+ ( /50A1133D $noname  R2 100k {Lib=R}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /50A1133A $noname  R1 1k {Lib=R}
+  (    1 N-000044 )
+  (    2 N-000034 )
+ )
+ ( /50A11332 $noname  C2 10uf {Lib=CP1}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /50A1132F $noname  C1 100uf {Lib=CP1}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /50A11133 $noname  Q1 NPN_-_BD135 {Lib=NPN}
+  (    1 GND )
+  (    2 N-000044 )
+  (    3 N-000032 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R11 2
+ Q5 1
+Net 2 "" ""
+ P2 4
+ Q6 3
+Net 3 "GND" "GND"
+ U2 6
+ U2 7
+ Q1 1
+ U1 GND
+ U2 5
+ R2 2
+ U2 4
+ C2 2
+ C1 2
+ P1 2
+ SHIELD1 GND1
+ SHIELD1 GND2
+ R8 2
+ Q4 1
+ P3 2
+ Q6 1
+ P4 2
+ R12 2
+Net 7 "" ""
+ Q4 2
+ R8 1
+ R7 1
+Net 8 "" ""
+ R7 2
+ Q3 1
+Net 9 "" ""
+ R10 2
+ R9 2
+ Q5 2
+Net 17 "" ""
+ U2 2
+ SHIELD1 9
+Net 31 "" ""
+ P2 3
+ Q4 3
+Net 32 "" ""
+ P2 2
+ Q1 3
+Net 33 "" ""
+ P2 1
+ K1 2
+Net 34 "" ""
+ Q2 1
+ R1 2
+Net 36 "" ""
+ Q2 2
+ R3 2
+ R4 2
+Net 37 "" ""
+ Q3 2
+ R6 2
+ R5 2
+Net 38 "+5V" "+5V"
+ Q2 3
+ SHIELD1 5V
+ R10 1
+ K1 3
+ P4 1
+ Q5 3
+ U2 14
+ D2 2
+ Q3 3
+ R4 1
+ R6 1
+Net 39 "" ""
+ U2 13
+ P4 3
+Net 40 "" ""
+ P4 4
+ U2 12
+Net 41 "" ""
+ U2 8
+ R3 1
+Net 43 "" ""
+ SHIELD1 8
+ U2 1
+Net 44 "" ""
+ R2 1
+ Q1 2
+ R1 1
+Net 45 "" ""
+ P1 1
+ D1 1
+ P3 1
+Net 47 "" ""
+ U2 9
+ R5 1
+Net 48 "" ""
+ U2 10
+ R9 1
+Net 49 "" ""
+ R11 1
+ Q6 2
+ R12 1
+Net 50 "+12V" "+12V"
+ K1 1
+ C2 1
+ D1 2
+ U1 VI
+Net 51 "" ""
+ C1 1
+ U1 VO
+ D2 1
+}
+#End
